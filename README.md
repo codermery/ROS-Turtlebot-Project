@@ -62,6 +62,7 @@ Turtlebot 3 modüler, kompakt ve özelleştirilebilir yeni nesil bir mobil robot
 ## Build koyduktan sonra:
 <img width="805" alt="Ekran Resmi 2022-04-10 13 58 07" src="https://user-images.githubusercontent.com/56040583/162629283-616404ff-8e3f-49a0-951a-efe81b65b17d.png">
 <br>
+resimdeki oda tasarımını repo'daki theRoom klasöründen alabilirsiniz
 
 
 ## Simülasyon çalışırken:
