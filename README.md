@@ -1,5 +1,5 @@
 # ROS-Turtlebot-Project
-ROS And AI Project Under YTÜ Mint AI Crew
+ROS And AI Project Under YTU MINT AI Crew
 <ul>
  <li><a href="https://github.com/codermery" title="Go to Github Profile of Meryem Koç"> Meryem Koç </a></li>
  <li><a href="https://github.com/codermery " title="Go to Github Profile of Ömer Faruk Güler"> Ömer Faruk Güler </a></li>
