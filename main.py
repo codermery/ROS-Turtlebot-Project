@@ -6,11 +6,6 @@ from geometry_msgs.msg import Twist
 import math
 import time
 
-# ÇALIŞTIRMA ADIMLARI
-# roscore # TERMİNAL 1
-# roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch # TERMİNAL 2
-# rosrun basit_uygulamalar deneme.py # TERMİNAL 3
-
 class Rosbot():
      def __init__(self):
 
@@ -44,7 +39,7 @@ class Rosbot():
              print(round(self.d, 2), "metre önünde bir cisim var") 
              if self.d < 1:
                  self.vel.linear.x = 0
-                 self.vel.angular.z = -1.2
+                 self.vel.angular.z = -1.37 # 90 derece
              else:
                  self.vel.linear.x = 0.25
                  self.vel.angular.z = 0
