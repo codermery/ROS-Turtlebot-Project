@@ -1,7 +1,12 @@
 # ROS-Turtlebot-Project
-ROS And AI Project Under YTÜ Mint AI 
-
-## Ros nedir?
+ROS And AI Project Under YTÜ Mint AI Crew
+<ul>
+ <li><a href="https://github.com/codermery" title="Go to Github Profile of Meryem Koç"> Meryem Koç </a></li>
+ <li><a href="https://github.com/codermery " title="Go to Github Profile of Ömer Faruk Güler"> Ömer Faruk Güler </a></li>
+ <li><a href="https://github.com/ozguraslank" title="Go to Github Profile of Özgür Aslan"> Özgür Aslan </a></li>
+</ul>
+<br>
+ ## ROS nedir?
 
 ![ros-nedir](https://user-images.githubusercontent.com/59237081/162614341-05088347-cd81-4ce5-baff-f4ac6883a3b5.jpeg)
 
@@ -33,19 +38,31 @@ Rviz, Ros uygulamaları için bir 3D görselleştirme ortamıdır. Robot modelin
 
 Turtlebot 3 modüler, kompakt ve özelleştirilebilir yeni nesil bir mobil robottur. Robotun amacı kapasiteyi, işlevselliği ve kaliteyi ödün vermeden platformun boyutunu önemli ölçüde azaltmak ve fiyatını düşürmektir. Turtlebot 3, Open Robotics, Robotis ve İntel, Onshape, Oroca gibi daha fazla ortak arasında iş birliği projesidir.
 
-## Ros'un çalışma mantığı nedir?!
+## ROS'un çalışma mantığı nedir?!
 
 <img width="805" alt="Ekran Resmi 2022-04-10 13 58 07" src="https://user-images.githubusercontent.com/59237081/162614849-0870a711-0da5-4ad3-a7f3-3639aaffa6ac.png">
 
 
  Buradaki çalışma mantığı yayınlama/abone yani daha basit anlamda alıcı-gönderici mantığında çalışmaktadır. Bilgisayar ile root arasındaki bu iletişim topic’ler ve mesajlar sayesinde sağlanmaktadır. Açık kaynak kodlu(BSD) bir sistemdir. Programlama dili olarak bağımsız olarak nitelendirilebilir. Aynı robot üzerinde farklı diller(java, lisp, c++, pyhton) kullanmaya izin verir. 
-
+<br> <br>
 
 # Proje
 
 ### Kodu çalıştırma
 3 Adet terminal açılır ve her bir terminale alttaki kodlar yazılır.
 * 1.Terminale: roscore    <br> # Ros çekirdeğini başlatmak
-* 2.Terminale: roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch          <br> # turtlebot3 robotumuzu boş bir dünya'ya koymak ve Gazebo'yu başlatmak
-* 3.Terminale: rosrun basit_uygulamalar main.py       <br>    # py dosyamız catkin_ws/src altında bulunan basit_uygulamalar adlı workspace'de bulunmakta, main.py ise scripts klasörünün altında, bu py dosyasını çalıştırarak programı başlatıyoruz.
+* 2.Terminale: roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch          <br> # turtlebot3 robotumuzu Gazebo'da, boş bir dünya'da başlatmak 
+### 3.Terminali en son, Gazebo ortamınız hazır olduğunda, tüm işlemleriniz bittiğinde, simülasyonu başlatmak için kullanın!
+* 3.Terminale: rosrun basit_uygulamalar main.py       <br>    Bu kodu, # py dosyamız catkin_ws/src altında bulunan basit_uygulamalar adlı workspace'de bulunmakta, main.py ise scripts klasörünün altında, bu py dosyasını çalıştırarak programı başlatıyoruz.
 
+## roscore ve roslaunch kodlarını çalıştırdıktan sonra:
+<img width="805" alt="Ekran Resmi 2022-04-10 13 58 07" src="https://user-images.githubusercontent.com/56040583/162629209-fe7cad22-fd38-4b47-9ca8-8c45ceef2c58.png">
+<br>
+
+## Build koyduktan sonra:
+<img width="805" alt="Ekran Resmi 2022-04-10 13 58 07" src="https://user-images.githubusercontent.com/56040583/162629283-616404ff-8e3f-49a0-951a-efe81b65b17d.png">
+<br>
+
+
+## Simülasyon çalışırken:
+<img width="805" alt="Ekran Resmi 2022-04-10 13 58 07" src="https://user-images.githubusercontent.com/56040583/162629262-298d6b87-16e8-40a9-b02c-33a4d7b11f5f.png">
