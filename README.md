@@ -9,9 +9,21 @@ Robot İşletim Sistemi robot yazılımı geliştiricileri için işletim sistem
 
 Gazebo Nedir?
 
+![221-2216011_ros-gazebo-logo](https://user-images.githubusercontent.com/59237081/162616496-16b812e9-01f0-40b0-9919-f0a652a92c30.jpeg)
 
+
+Bu eğitim, robotik senaryolarının gerçekçi simülasyonlarına sahip olmak isteyen robot uzmanlarına yöneliktir. Gazebo bir 3D simülatördür, ROS ise robot için arayüz görevi görür. Her ikisini birleştirmek, güçlü bir robot simülatörü ile sonuçlanır.
+
+Gazebo ile robotlar, engeller ve daha birçok nesne ile bilgisayarınızda 3 boyutlu bir senaryo oluşturabilirsiniz. Gazebo ayrıca aydınlatma, yerçekimi, atalet vb. için fiziksel bir motor kullanır. Robotunuzu zor veya tehlikeli senaryolarda robotunuza zarar vermeden değerlendirebilir ve test edebilirsiniz. Çoğu zaman, tüm senaryoyu gerçek robotunuzda başlatmak yerine bir simülatör çalıştırmak daha hızlıdır.
+
+Aslen Gazebo, robotlar için algoritmaları değerlendirmek için tasarlandı. Hata işleme, pil ömrü, konum belirleme, gezinme ve kavrama gibi birçok uygulama için robot uygulamanızı test etmeniz önemlidir. Çok robotlu bir simülatöre ihtiyaç duyulduğundan Gazebo geliştirildi.
 
 Rviz Nedir?
+
+![splash](https://user-images.githubusercontent.com/59237081/162616422-8fc14c15-2330-4a81-835b-000fe08830c6.png)
+
+
+Rviz, Ros uygulamaları için bir 3D görselleştirme ortamıdır. Robot modelinin görünümünü sağlamasının yanı sıra sensör bilgilerinin kaydedilmesi ve görselleştirilmesi, geliştirme ve hata ayıklama için önemli bir araçtır. Robotun ne gördüğünü ve ne yaptığını görmemizi sağlar. Resimler ve point cloud verileri dahil olmak üzere kameradan, lidarlardan, 3D ve 2D cihazlardan gelen verileri görüntüleyebilir.
 
 TurtleBot nedir?
 
