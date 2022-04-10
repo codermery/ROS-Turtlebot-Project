@@ -11,6 +11,8 @@ Gazebo Nedir?
 
 ![221-2216011_ros-gazebo-logo](https://user-images.githubusercontent.com/59237081/162616496-16b812e9-01f0-40b0-9919-f0a652a92c30.jpeg)
 
+<img width="1012" alt="Ekran Resmi 2022-04-10 15 12 30" src="https://user-images.githubusercontent.com/59237081/162617460-7a54caae-4fa2-4a23-9ede-c88d2f00f127.png">
+
 
 Bu eğitim, robotik senaryolarının gerçekçi simülasyonlarına sahip olmak isteyen robot uzmanlarına yöneliktir. Gazebo bir 3D simülatördür, ROS ise robot için arayüz görevi görür. Her ikisini birleştirmek, güçlü bir robot simülatörü ile sonuçlanır.
 
